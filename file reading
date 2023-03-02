@@ -4,7 +4,6 @@ int main()
 {
    int num;
    FILE *fptr;
-
    if ((fptr = fopen("C:\\program\\program.txt","r")) == NULL){
        printf("Error! opening file");
        exit(1);
